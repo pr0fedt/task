@@ -1,0 +1,22 @@
+.button {
+  cursor: pointer;
+  float: left;
+  padding: 4px;
+
+  .button-icon {
+    width: $iconWidth;
+    height: $iconHeight;
+    fill: $colorPrimary;
+    vertical-align: text-top;
+    margin-right: 4px;
+  }
+
+  &:hover {
+    a {
+      color: $colorInverse;
+    }
+    .button-icon {
+      fill: $colorInverse;
+    }
+  }
+}

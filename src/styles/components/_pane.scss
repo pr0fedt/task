@@ -1,0 +1,14 @@
+.pane {
+  @include noselect;
+  margin: 8px;
+  width: calc(50% - 18px);
+  height: 400px;
+  border: 1px $colorSecondary solid;
+  float: left;
+
+  .pane-controls {
+    @include clearfix;
+    width: 100%;
+    border-bottom: 1px $colorSecondary solid;
+  }
+}

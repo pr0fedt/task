@@ -1,0 +1,11 @@
+input[type=text] {
+  border: 0;
+  border-bottom: 1px $colorInverse dotted;
+  font-size: 12px;
+  padding: 4px;
+}
+
+select {
+  padding: 4px;
+}
+

@@ -1,0 +1,10 @@
+* {
+  font-family: $font;
+  color: $colorPrimary;
+}
+
+a {
+  &:link, &:visited, &:hover, &:active {
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,20 @@
+.folder {
+  cursor: pointer;
+  padding: 4px 8px;
+
+  .folder-icon {
+    width: $iconWidth;
+    height: $iconHeight;
+    fill: $colorPrimary;
+    vertical-align: text-top;
+    margin-right: 4px;
+  }
+
+  &.highlight {
+    background: $colorInverse;
+  }
+
+  &.selected {
+    background: #ccc;
+  }
+}

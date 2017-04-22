@@ -1,0 +1,17 @@
+.drop-down {
+  min-width: 160px;
+  padding: 4px;
+  border-right: 1px $colorSecondary solid;
+  border-bottom: 1px $colorSecondary solid;
+
+  .drop-down-content {
+    padding: 4px;
+    margin-left: -4px;
+    min-width: 160px;
+    border-right: 1px $colorSecondary solid;
+    border-bottom: 1px $colorSecondary solid;
+    position: absolute;
+    z-index: 1;
+    background: #fff;
+  }
+}

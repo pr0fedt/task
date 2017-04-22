@@ -1,0 +1,12 @@
+.file {
+  cursor: pointer;
+  padding: 4px 8px;
+
+  .file-icon {
+    width: $iconWidth;
+    height: $iconHeight;
+    fill: $colorPrimary;
+    vertical-align: text-top;
+    margin-right: 4px;
+  }
+}
